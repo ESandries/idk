@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/interest.css">
+    <link rel="stylesheet" href="./styles/reflections.css">
+    <link rel="stylesheet" href="./styles/resume.css">
+    <link rel="stylesheet" href="./styles/guestbooks.css">
+
+    <style>
+        .header{
+            font-family: 'Lato', sans-serif;
+            background-color: #193549;
+            margin: 0;
+            padding-inline: 20px;
+            padding-block: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #193549;
+            justify-content: space-between;
+            min-height: 3.75em;
+        }
+
+        .headerLogo{
+            color: white;
+            font-size: 1.75em;
+            font-weight: bold;
+        }
+
+        .headerNavBar{
+            display: flex;
+            gap: 1em;
+        }
+
+    @media screen and (max-width: 600px) {
+        .header{
+            gap: 0.625em;
+        }
+        .headerLogo{
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        .headerNavbar{
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 0.625em;
+        }
+        .button{
+            width: 20%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .header{
+            min-height: 1em;
+        }
+        .headerLogo{
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        .headerNavbar{
+            display: none;
+        }
+    }
+
+
+    </style>
+</head>
+<body style="background-color: #002C3E;">
+    <!--
+        Header
+    -->
+    <div class="header">
+        <div class="headerLogo">
+            S A N D R I E S
+        </div>
+        <div class="headerNavbar">
+            <a href="#" class="button-secondary">Home</a>
+            <a href="./resume.html" class="button">Resume</a>
+            <a href="./interest.html" class="button">Interests</a>
+            <a href="./reflections.html" class="button">Reflections</a>
+            <a href="./guestbooks.html" class="button">Guestbook</a>
+        </div>
+    </div>
+        <!--
+        Main
+        -->
+<div class="main">
+        <div class="hero">
+        <div class="heroImg">
+            <img src="./assets/images/LouisSandriesLogo.png" alt="">
+        </div>
+        <div class="heroDetails">
+
+            <h1 class="heroTitle">
+                Louis Sandries
+            </h1>
+            <p class="heroP">
+                I'm student at Edmonds College. I'm in process to graduate as associate in computer information systems. Then, I'll transfer to the ITAD bachelor program. Those degrees will help me to make better solution for real problems. My dream job it's to have a positive impact in the end user. Specially, when I can help them.</p>
+            <p class="heroP">
+                I have been working in Supply Chain. Finance, Education, Tutoring, Customer Service, and other areas. These areas gave me new knowledge to apply in any kind of project. In addition, I have been learning process automation.            </p>
+            <p class="heroP">
+                I'm more than happy with solving problems and leave a positive impact in the world. I would like to be remembered for the people that I help to be successful than anything. If I cand contribute to the world, I'll do it.             </p>
+            <div class="heroDetailsImg">
+                <img src="./assets/images/LouisSandriesInPikeMarket.png" alt="">
+                <img src="./assets/images/LouisSandriesInAFarm.png" alt="">
+                <img src="./assets/images/LouisSandriesWithSomeoneOfCallOfDuty.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

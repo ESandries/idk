@@ -1,0 +1,31 @@
+.guestbook{
+    max-width: 40em;
+    color: white;
+    margin: 0 auto;
+}
+.guestbookForm{
+    width: 100%;
+}
+
+label{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
+
+.textarea{
+    width: 100%;
+}
+
+.nakayama{
+ background-color: #002C3E;
+ color: white;
+ border: solid 2px white;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}

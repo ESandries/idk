@@ -1,0 +1,95 @@
+<div class="header">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+        .header{
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding-inline: 20px;
+            padding-block: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: 193549;
+            justify-content: space-between;
+            min-height: 3.75em;
+        }
+
+        .headerLogo{
+            color: white;
+            font-size: 1.75em;
+            font-weight: bold;
+        }
+
+        .headerNavBar{
+            display: flex;
+            gap: 0.625em;
+        }
+
+        .button{
+            color: white;
+            margin: 0;
+            text-decoration: none;
+            padding-inline: 0.625em;
+            padding-block: 0.625em;
+            border: solid 0.125em;
+        }
+
+
+
+
+    @media screen and (max-width: 600px) {
+        .header{
+            gap: 0.625em;
+        }
+        .headerLogo{
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        .headerNavbar{
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 0.625em;
+        }
+        .button{
+            width: 20%;
+        }
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .header{
+            min-height: 1em;
+        }
+        .headerLogo{
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        .headerNavbar{
+            display: none;
+        }
+    }
+
+
+    </style>
+    <div class="headerLogo">
+        S A N D R I E S 
+    </div>
+    <div class="headerNavbar">
+        <a href="" class="button">Home</a>
+        <a href="" class="button">Resume</a>
+        <a href="" class="button">Interests</a>
+        <a href="" class="button">Reflections</a>
+        <a href="" class="button">Guestbook</a>
+    </div>
+</div>

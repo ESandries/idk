@@ -1,0 +1,17 @@
+.interest{
+    max-width: 75em;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.25em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.interestCard{
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}

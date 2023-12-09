@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+}
+
+.main{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.25em;
+    max-width: 75em;
+}
+
+@media screen and (max-width: 500px) {
+    .hero{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        max-width: 75em;
+        padding-inline: 1.25em;
+    }
+}
+.heroImg{
+    grid-column: span 6;
+    text-align: center;
+}
+
+.heroTitle{
+    color: #002C3E;
+    background-color: #0CF25D;
+}
+
+.heroP{
+    color: white;
+    font-family: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    .heroP{
+        font-family: 1.5em;
+    }
+}
+
+.heroDetails{
+    grid-column: span 6;
+}
+
+.heroDetailsImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+    .heroDetailsImg{
+        gap: 0.625em;
+    }
+}
+
+.button{
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    padding-inline: 0.625em;
+    padding-block: 0.625em;
+    border: solid 0.125em;
+    border-radius: 0.625em;
+}
+
+.button-secondary{
+    color: #002C3E;
+    background-color: white;
+    margin: 0;
+    text-decoration: none;
+    padding-inline: 0.625em;
+    padding-block: 0.625em;
+    border: solid 0.125em #002C3E;
+    border-radius: 0.625em;
+}
